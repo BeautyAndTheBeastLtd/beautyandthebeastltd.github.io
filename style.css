@@ -1,0 +1,160 @@
+::-moz-selection {
+background: #00ffab; /* Firefox */
+color: #111;
+}
+
+::selection {
+background: #00ffab; /* Safari */
+color: #111;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Calibri, Arial, sans-serif;
+}
+
+body {
+	background: #000000 url("images/bg.jpg") no-repeat fixed bottom center;
+}
+
+a {
+	text-decoration: none;
+	color: #032FAE;
+}
+
+a.selected {
+	background: #DFDFDF;
+	color: #032FAE;
+	border-bottom: 4px #032FAE solid;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#nav {
+	background: #EDEDED;
+	text-align: center;
+	border-bottom: 3px #032FAE solid;
+}
+
+#nav li {
+	display: inline-block;
+	height: 20px;
+	padding: 9px 0;
+}
+
+#nav a {
+	margin: 0 6px;
+	color: #262626;
+	padding: 10px 16px 10px 16px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#nav a:hover {
+	background: #DFDFDF;
+	color: #032FAE;
+	border-bottom: 3px #95080B solid;
+	text-decoration: none;
+}
+
+#logo {
+	height: 200px;
+	width: 800px;
+	margin: auto;
+	background: url("images/logo.jpg") top center;
+}
+
+#content {
+	width: 800px;
+	margin: auto;
+}
+
+#left {
+	float: left;
+	width: 190px;
+	padding: 10px 0px;
+	/* padding: 10px; */
+}
+
+#center {
+	float: left;
+	width: 570px;
+	padding: 10px 20px;
+}
+
+/* #center {
+	float: center;
+	width: 570px;
+	padding: 10px;
+} */
+
+div.panel {
+	margin-bottom: 10px;
+	background: #FFF;
+	width: 100%;
+	padding: 6px;
+	border: 2px #333 solid;
+	border-radius: 6px;
+}
+
+div.panel h2 {
+	padding-left: 6px;
+	font-size: 16px;
+	color: #111;
+	border-bottom: 1px #666 dashed;
+	margin-bottom: 4px;
+}
+
+div.panel  p {
+	font-size: 12px;
+	padding-top: 4px;
+}
+
+div.panel h6 {
+	margin: 6px 0;
+	text-align: right;
+}
+
+div.center {
+	text-align: center;
+}
+
+input {
+	border: 0;
+	background: #222;
+}
+
+input.text {
+	border-radius: 6px;
+	padding: 6px;
+	margin-top: 4px;
+	color: #EEE;
+}
+
+input.submit {
+	font-size: 12px;
+	border-radius: 6px;
+	padding: 4px 16px;
+	margin-top: 6px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #EEE;
+}
+
+input.text:hover {
+	background: #460864;
+}
+
+input.submit:hover {
+	background: #460864;
+}
+
+input:focus {
+	box-shadow: 0 0 5px #b314ff;
+	-webkit-box-shader: 0 0 5px #b314ff;
+	-moz-box-shadow: 0 0 5px #b314ff;
+}
